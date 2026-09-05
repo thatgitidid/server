@@ -1,15 +1,15 @@
 name: Publish Meshes Docker Image
 
 on:
-  push:
-    branches:
-      - base
-    # These are submodules, so a bump changes the gitlink path itself, not anything beneath it.
-    paths:
-      - 'navmeshes'
-      - 'ximeshes'
-      - '.gitmodules'
-      - 'docker/meshes.Dockerfile'
+  # push:
+  #   branches:
+  #     - base
+  #   # These are submodules, so a bump changes the gitlink path itself, not anything beneath it.
+  #   paths:
+  #     - 'navmeshes'
+  #     - 'ximeshes'
+  #     - '.gitmodules'
+  #     - 'docker/meshes.Dockerfile'
   workflow_dispatch:
 
 permissions:

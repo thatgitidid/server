@@ -1,9 +1,9 @@
 name: Builds
 
 on:
-  push:
-    branches:
-      - base
+#   push:
+#     branches:
+#       - never
   workflow_dispatch:
 
 concurrency:
